@@ -1,0 +1,18 @@
+<!--pages/map/map.wxml-->
+<view class="map_container">
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
+</view>
+
+<view class='search-big'>
+  <view class='search-bmap' style="color:{{color===1?'#5bb2f4':'#fff'}}" bindtap='search' data-alpha-beta='楼盘'>楼盘</view>
+  <view class='search-bmap' style="color:{{color===2?'#5bb2f4':'#fff'}}" bindtap='search' data-alpha-beta='酒店'>酒店</view>
+  <view class='search-bmap' style="color:{{color===3?'#5bb2f4':'#fff'}}" bindtap='search' data-alpha-beta='医院'>医院</view>
+  <view class='search-bmap' style="color:{{color===4?'#5bb2f4':'#fff'}}" bindtap='search' data-alpha-beta='公交'>公交</view>
+  <view class='search-bmap' style="color:{{color===5?'#5bb2f4':'#fff'}}" bindtap='search' data-alpha-beta='银行'>银行</view>
+  <view class='search-bmap' style="color:{{color===6?'#5bb2f4':'#fff'}};margin-right:0" bindtap='search' data-alpha-beta='地铁'>地铁</view>
+</view>
+<view class="place_info">
+  <text style='color:#66666;font-size:28rpx'>{{placeData.title}}</text>
+  <text style='color:#66666;font-size:28rpx'>{{placeData.address}}</text>
+  <text style='color:#66666;font-size:28rpx'>{{placeData.telephone==='电话：undefined'?'电话：暂无':placeData.telephone}}</text>
+</view>

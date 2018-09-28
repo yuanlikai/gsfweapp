@@ -1,0 +1,12 @@
+<!--pages/me/discount/discount.wxml-->
+<view class='big-image'>
+  <view class='big-image-li' wx:for="{{list}}" wx:key="{{index}}">
+    <image class='big-image-con' src='{{item.state===1?quan:quan1}}'></image>
+    <view class='big-rig'>
+      <text class="quans" style="{{item.state===2?'text-decoration:line-through':''}}">券号：{{item.buycode}}</text>
+      <text class="quans" style="{{item.state===2?'text-decoration:line-through':''}}">密钥：{{item.key}}</text>
+      <image bindtap="tabcode" data-dataset="{{'http://mobile.qq.com/qrcode?url='+item.buycode+'~'+item.key}}" class='code-img' src="{{'http://mobile.qq.com/qrcode?url='+item.buycode+'~'+item.key}}"></image>
+      
+    </view>
+  </view>
+</view>

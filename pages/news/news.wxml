@@ -1,0 +1,28 @@
+<!--pages/news/news.wxml-->
+<view class='news-banner'>
+  <image src='https://wx-gsf.oss-cn-hangzhou.aliyuncs.com/app-%E6%96%B0%E9%97%BBbanner%402x.png?x-oss-process=image/resize,h_150' class='news-banner-img'></image>
+</view>
+
+<view class='news-ul'>
+
+  <navigator wx:for="{{recommendList}}" wx:key="{{index}}" url="/pages/newsDetail/newsDetail?news_id={{item.news_id}}" >
+  <view class='news-ul-li'>
+    <view class='news-ul-big'>
+      <view class='news-ul-li-head'>{{item.news_headline}}</view>
+      <view class='news-ul-li-detai'>
+        <!-- <image class='news-ul-li-head-img' src='https://wx-gsf.oss-cn-hangzhou.aliyuncs.com/app-%E6%96%B0%E9%97%BBbanner%402x.png'></image> -->
+
+        <text class='news-ul-li-nick'>{{item.admin_name}} · {{item.news_hits}}次阅读</text>
+
+      </view>
+    </view>
+    <image src='http://img.gsfzd.com/{{item.news_cover}}?x-oss-process=image/resize,h_150' class='news-ul-li-rig'></image>
+</view>
+</navigator>
+  <view style='float:left;width:100%;padding:0 24rpx;box-sizing:border-box'>
+    <i-load-more wx:if="{{loadingSta}}" tip="数据加载中..." loading="{{ true }}" />
+    <i-divider wx:if="{{!loadingSta}}" content="加载已经完成,没有其他数据"></i-divider>
+  </view>
+</view>
+<view style='float:left;width:100%;height:20rpx;'>
+</view>

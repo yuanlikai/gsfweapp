@@ -1,0 +1,141 @@
+<i-panel title="1. 您的年龄是？">
+    <i-radio-group current="{{current.current1}}" bindchange="handleFruitChange1">
+        <i-radio wx:for="{{fruit1}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="2. 您的职业是？">
+    <i-radio-group current="{{current.current2}}" bindchange="handleFruitChange2">
+        <i-radio wx:for="{{fruit2}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="3. 你对买房的价格区间在多少？">
+    <i-radio-group current="{{current.current3}}" bindchange="handleFruitChange3">
+        <i-radio wx:for="{{fruit3}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="4. 您倾向于哪一类户型？">
+    <i-radio-group current="{{current.current4}}" bindchange="handleFruitChange4">
+        <i-radio wx:for="{{fruit4}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="5. 您对所购住宅要求是什么样的内部装修水平？">
+    <i-radio-group current="{{current.current5}}" bindchange="handleFruitChange5">
+        <i-radio wx:for="{{fruit5}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="6. 请问您购买房会选择什么渠道预订？">
+    <i-radio-group current="{{current.current6}}" bindchange="handleFruitChange6">
+        <i-radio wx:for="{{fruit6}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="7. 您觉得您买一套房子，等比开发商的收益上浮了多少？">
+    <i-radio-group current="{{current.current7}}" bindchange="handleFruitChange7">
+        <i-radio wx:for="{{fruit7}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="8. 您觉得这些上浮的费用去哪儿了？">
+    <i-radio-group current="{{current.current8}}" bindchange="handleFruitChange8">
+        <i-radio wx:for="{{fruit8}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="9. 如果现在给你一个能直接跟开发商拿房的渠道，您是否愿意考虑一下？">
+    <i-radio-group current="{{current.current9}}" bindchange="handleFruitChange9">
+        <i-radio wx:for="{{fruit9}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="10. 通过这个渠道可以让你减免大笔的中间费用，并且可以购买一万抵两万随时可退的优惠券，您是否？">
+    <i-radio-group current="{{current.current10}}" bindchange="handleFruitChange10">
+        <i-radio wx:for="{{fruit10}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="11. 您一般是通过什么途径或渠道获得房地产方面的信息呢？">
+    <i-radio-group current="{{current.current11}}" bindchange="handleFruitChange11">
+        <i-radio wx:for="{{fruit11}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="12. 您买房最能吸引您的促销方式是？">
+    <i-radio-group current="{{current.current12}}" bindchange="handleFruitChange12">
+        <i-radio wx:for="{{fruit12}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="13. 您对目前市面上的找房、看房平台满意吗？">
+    <i-radio-group current="{{current.current13}}" bindchange="handleFruitChange13">
+        <i-radio wx:for="{{fruit13}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="14. 您认为通过找房平台可以直接联系开发商对买房有帮助吗？">
+    <i-radio-group current="{{current.current14}}" bindchange="handleFruitChange14">
+        <i-radio wx:for="{{fruit14}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+<i-panel title="15. 如果购房时，在网上直接下订，你最担心的问题是什么？">
+    <i-radio-group current="{{current.current15}}" bindchange="handleFruitChange15">
+        <i-radio wx:for="{{fruit15}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="16. 一个成熟的买房平台，你觉得应该具备什么功能？">
+    <i-radio-group current="{{current.current16}}" bindchange="handleFruitChange16">
+        <i-radio wx:for="{{fruit16}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="17. 关于平台推出的可以随时随地直播看房功能，您认为对你有帮助有吸引吗？">
+    <i-radio-group current="{{current.current17}}" bindchange="handleFruitChange17">
+        <i-radio wx:for="{{fruit17}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+
+<i-panel title="18. 你会为了看房更方便更清晰，专门购买一个VR眼镜吗？">
+    <i-radio-group current="{{current.current18}}" bindchange="handleFruitChange18">
+        <i-radio wx:for="{{fruit18}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="19. 关于视频讲解这个功能，你觉得对你的帮助大吗？">
+    <i-radio-group current="{{current.current19}}" bindchange="handleFruitChange19">
+        <i-radio wx:for="{{fruit19}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title="20. 你会为了看房更方便更清晰，专门购买一个VR眼镜吗？">
+    <i-radio-group current="{{current.current20}}" bindchange="handleFruitChange20">
+        <i-radio wx:for="{{fruit20}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-button bind:click="handleClick" type="info">提交问卷</i-button>
