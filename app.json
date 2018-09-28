@@ -16,7 +16,9 @@
     "pages/newsDetail/newsDetail",
     "pages/tickling/tickling",
     "pages/map/map",
-    "pages/rests/survey/survey"
+    "pages/rests/survey/survey",
+
+    "pages/verify/verify"
   ],
   "window":{
     "backgroundTextStyle":"dark",

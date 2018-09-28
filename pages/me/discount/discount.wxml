@@ -10,3 +10,8 @@
     </view>
   </view>
 </view>
+
+
+  <navigator url="/pages/tickling/tickling" hover-class="navigator-hover" style='float:left;width:100%'>
+  1
+  </navigator>
