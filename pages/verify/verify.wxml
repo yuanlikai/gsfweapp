@@ -1,2 +1,15 @@
 <!--pages/verify/verify.wxml-->
-<text>pages/verify/verify.wxml</text>
+<view class='content'>
+  <view class='content-head'>您正在使用抵用券消除功能</view>
+
+  <view class='content-li'>
+    <i-icon class='icon-s' type="createtask" size="24" />
+    <input class='username' maxlength="10" bindinput="bindKeyInput" placeholder='请输入券码' value="{{buycode}}"></input>
+  </view>
+  <view class='content-li'>
+    <i-icon type="lock" class='icon-s' size="24" />
+    <input class='username' maxlength="10" bindinput="bindKeyInput1" placeholder='请输入秘钥'  value="{{key}}"></input>
+    <i-icon bindtap='sacode' type="scan"  size="24" color='#666'/>
+  </view>
+  <button class='submit' bindtap='submit' disabled='{{buycode.length<10||key.length<10?true:false}}' >确认</button>
+</view>

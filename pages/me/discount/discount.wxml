@@ -9,9 +9,7 @@
       
     </view>
   </view>
+
+<view class='offf' wx:if="{{list.length<1}}">您目前没有优惠券哦！</view>
 </view>
 
-
-  <navigator url="/pages/tickling/tickling" hover-class="navigator-hover" style='float:left;width:100%'>
-  1
-  </navigator>

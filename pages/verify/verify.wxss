@@ -1,1 +1,49 @@
 /* pages/verify/verify.wxss */
+
+.content {
+  float: left;
+  width: 100%;
+  padding: 0 64rpx;
+  box-sizing: border-box;
+}
+
+.content-head {
+  float: left;
+  width: 100%;
+  padding: 96rpx 0;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: rgba(68, 68, 68, 1);
+}
+.content-li{
+  line-height: 86rpx;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 90rpx;
+background:rgba(238,238,238,1);
+border-radius:10rpx;
+margin-bottom: 60rpx;
+
+}
+.submit{
+  float: left;
+font-size:30rpx;
+line-height: 67rpx;
+  width: 240rpx;
+height:67rpx;
+margin-left: 189rpx;
+  margin-top: 30rpx;
+background:rgba(255,218,75,1);
+}
+.icon-s{
+  float: left;
+  margin-left: 23rpx;
+}
+.username{
+  float: left;
+  margin-left: 30rpx;
+  width: 450rpx;
+  font-size:26rpx;
+  height: 100%;
+}

@@ -1,0 +1,16 @@
+<!--pages/verify/success/success.wxml-->
+
+<view class='content'>
+  <view class='content-head'>优惠券使用成功！</view>
+  <view class='cont-big'>
+    <text class='cont-big-head'>用户信息</text>
+    <text class='cont-big-a'>手机号：{{mobile}}</text>
+    <text class='cont-big-a'>身份证：{{idcard}}</text>
+  </view>
+    <navigator url="/pages/verify/verify" open-type="reLaunch" hover-class="other-navigator-hover">
+    
+  <button class='submit'>继续验证</button>
+    
+    </navigator>
+
+</view>

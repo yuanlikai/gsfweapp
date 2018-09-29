@@ -1,0 +1,55 @@
+/* pages/verify/success/success.wxss */
+
+.content {
+  float: left;
+  width: 100%;
+  padding: 0 24rpx;
+  box-sizing: border-box;
+}
+
+.content-head {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 96rpx 0;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #f66;
+}
+
+.cont-big {
+  float: left;
+  font-size: 36rpx;
+  color: #999;
+  width: 702rpx;
+  padding-bottom: 15rpx;
+  background: rgba(248, 248, 248, 1);
+}
+
+.cont-big-a {
+  float: left;
+  margin-top: 15rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 90rpx;
+}
+
+.cont-big-head {
+  float: left;
+  color: #666;
+  margin-top: 20rpx;
+  text-align: center;
+  width: 100%;
+}
+
+.submit {
+  float: left;
+  font-size: 30rpx;
+  line-height: 67rpx;
+  width: 240rpx;
+  height: 67rpx;
+  margin-left: 231rpx;
+  margin-top: 60rpx;
+  color: #666;
+  background: rgba(255, 218, 75, 1);
+}

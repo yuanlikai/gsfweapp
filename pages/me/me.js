@@ -11,7 +11,7 @@ Page({
   },
   getPhoneNumber: function(e) {
     wx.showLoading({
-      title: '加载中',
+      title: '登陆中',
     })
     let v = this;
     wx.login({
@@ -23,15 +23,11 @@ Page({
             js_code: res.code
           },
           method: 'POST',
-          header: {
-            'content-type': 'application/json' // 默认值
-          },
           success: function(res) {
             let session = JSON.parse(res.data).session_key;
             // 授权
             wx.login({
               success: res => {
-                // console.log(res.code)
                 wx.request({
                   url: 'https://app.gsfzd.com/index.php/publics/wexin/decryptData',
                   data: {
@@ -40,10 +36,8 @@ Page({
                     iv: e.detail.iv
                   },
                   method: 'POST',
-                  header: {
-                    'content-type': 'application/json' // 默认值
-                  },
                   success: function(res) {
+                    console.log(res)
                     
                     if (res.data.error === true) {
                       wx.setStorage({

@@ -18,7 +18,8 @@
     "pages/map/map",
     "pages/rests/survey/survey",
 
-    "pages/verify/verify"
+    "pages/verify/verify",
+    "pages/verify/success/success"
   ],
   "window":{
     "backgroundTextStyle":"dark",
