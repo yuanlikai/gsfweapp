@@ -77,7 +77,6 @@ Page({
     wx.showLoading({
       title: '加载中',
     })
-    console.log(e.currentTarget.dataset.alphaBeta)
     switch (e.currentTarget.dataset.alphaBeta) {
       case '楼盘':
         v.setData({
@@ -126,7 +125,6 @@ Page({
       ak: 'RqhyfBAvoUGY1HX2x7BRFmX1LYZGRcd8'
     });
     var fail = function(data) {
-      console.log(data)
     };
     var success = function(data) {
       wxMarkerData = data.wxMarkerData;
@@ -143,7 +141,6 @@ Page({
 
 
     if (str) {
-      console.log('11')
       BMap.search({
         "query": str,
         fail: fail,
@@ -183,7 +180,6 @@ Page({
 
   showSearchInfo: function(data, i) {
     var that = this;
-    console.log
     that.setData({
       placeData: {
         title: '名称：' + data[i].title + '\n',

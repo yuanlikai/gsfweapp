@@ -19,9 +19,7 @@
   </navigator>
 </view>
 <i-cell-group>
-  <navigator url="/pages/tickling/tickling" hover-class="navigator-hover" style='float:left;width:100%'>
-    <i-cell title="意见反馈" is-link url="/pages/dashboard/index"></i-cell>
-  </navigator>
+    <i-cell title="意见反馈" is-link url="/pages/tickling/tickling"></i-cell>
   <i-cell bindtap="phone" title="客服电话" value="400-0052-533"></i-cell>
 </i-cell-group>
 

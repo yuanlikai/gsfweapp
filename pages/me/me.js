@@ -16,7 +16,6 @@ Page({
     let v = this;
     wx.login({
       success: res => {
-        // console.log(res.code)
         wx.request({
           url: 'https://app.gsfzd.com/index.php/publics/wexin/wexin',
           data: {
@@ -37,8 +36,6 @@ Page({
                   },
                   method: 'POST',
                   success: function(res) {
-                    console.log(res)
-                    
                     if (res.data.error === true) {
                       wx.setStorage({
                         key: 'userName',
@@ -56,21 +53,17 @@ Page({
                       })
 
                     } else {
-                      console.log('登录失败,请重新登录！')
                       v.handleWarning()
                     }
                     wx.hideLoading()
                   }
                 })
-                // 发送 res.code 到后台换取 openId, sessionKey, unionId
               }
             })
           }
         })
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
-    // Do some initialize when page load.
   },
   handleWarning() {
     $Toast({

@@ -292,7 +292,6 @@ Page({
     this.setData({
       'current.current1': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange2({
     detail = {}
@@ -300,7 +299,6 @@ Page({
     this.setData({
       'current.current2': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange3({
     detail = {}
@@ -308,7 +306,6 @@ Page({
     this.setData({
       'current.current3': detail.value,
     });
-    console.log(this.data.current)
   },
 
   handleFruitChange4({
@@ -317,7 +314,6 @@ Page({
     this.setData({
       'current.current4': detail.value,
     });
-    console.log(this.data.current)
   },
 
   handleFruitChange5({
@@ -326,7 +322,6 @@ Page({
     this.setData({
       'current.current5': detail.value,
     });
-    console.log(this.data.current)
   },
 
   handleFruitChange6({
@@ -335,7 +330,6 @@ Page({
     this.setData({
       'current.current6': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange7({
     detail = {}
@@ -343,7 +337,6 @@ Page({
     this.setData({
       'current.current7': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange8({
     detail = {}
@@ -351,7 +344,6 @@ Page({
     this.setData({
       'current.current8': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange9({
     detail = {}
@@ -359,7 +351,6 @@ Page({
     this.setData({
       'current.current9': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange10({
     detail = {}
@@ -367,7 +358,6 @@ Page({
     this.setData({
       'current.current10': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange11({
     detail = {}
@@ -375,7 +365,6 @@ Page({
     this.setData({
       'current.current11': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange12({
     detail = {}
@@ -383,7 +372,6 @@ Page({
     this.setData({
       'current.current12': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange13({
     detail = {}
@@ -391,7 +379,6 @@ Page({
     this.setData({
       'current.current13': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange14({
     detail = {}
@@ -399,7 +386,6 @@ Page({
     this.setData({
       'current.current14': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange15({
     detail = {}
@@ -407,7 +393,6 @@ Page({
     this.setData({
       'current.current15': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange16({
     detail = {}
@@ -415,7 +400,6 @@ Page({
     this.setData({
       'current.current16': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange17({
     detail = {}
@@ -423,7 +407,6 @@ Page({
     this.setData({
       'current.current17': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange18({
     detail = {}
@@ -431,7 +414,6 @@ Page({
     this.setData({
       'current.current18': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange19({
     detail = {}
@@ -439,7 +421,6 @@ Page({
     this.setData({
       'current.current19': detail.value,
     });
-    console.log(this.data.current)
   },
   handleFruitChange20({
     detail = {}
@@ -447,7 +428,6 @@ Page({
     this.setData({
       'current.current20': detail.value,
     });
-    console.log(this.data.current)
   },
 
 
@@ -497,7 +477,6 @@ Page({
         }
       })
     } else {
-      console.log('有选项未填写')
     }
 
   },

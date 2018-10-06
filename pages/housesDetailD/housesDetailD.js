@@ -64,7 +64,6 @@ Page({
         detail: hou_id
       },
       success:(res,req)=>{
-        console.log(res.data)
         wx.setNavigationBarTitle({
           title: res.data.data.names
         })

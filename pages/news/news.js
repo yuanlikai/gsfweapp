@@ -35,7 +35,6 @@ Page({
       },
       success:(res)=>{
         let data = res.data.info;
-        console.log(res.data.info)
         for(var i = 0; i < data.length;i++){
           v.data.reList.push(data[i])
         }

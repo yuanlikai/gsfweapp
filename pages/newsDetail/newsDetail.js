@@ -35,7 +35,6 @@ Page({
           content: JSON.parse(res.data.data.news_content),
           time: util.js_date_time(res.data.data.news_addtime).split(' ')[0]
         })
-        console.log(this.data.content)
       }
     })
   },
@@ -72,7 +71,6 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
     wx.stopPullDownRefresh()
   },
 
