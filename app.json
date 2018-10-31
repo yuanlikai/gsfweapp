@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/home/home",
+    "pages/home/banner/11.11",
     "pages/index/index",
     "pages/logs/logs",
     "pages/me/me",

@@ -7,7 +7,7 @@ Page({
     reList:[],
     num:1,
     imgUrls: [
-      'https://wx-gsf.oss-cn-hangzhou.aliyuncs.com/891141651297734196.jpg',
+'https://wx-gsf.oss-cn-hangzhou.aliyuncs.com/891141651297734196.jpg',
     ],
     newsList: [],
     indicatorDots: false,

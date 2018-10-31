@@ -2,9 +2,9 @@
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}" indicator-color='{{indicatorColor}}' circular="{{circular}}">
     <block wx:for="{{imgUrls}}" wx:key="index">
       <swiper-item>
-        <!-- <navigator url="/pages/rests/survey/survey" hover-class="navigator-hover"> -->
+        <navigator url="/pages/home/banner/11.11" hover-class="navigator-hover">
         <image src="{{item}}" class="slide-image swiper-img" />
-        <!-- </navigator> -->
+        </navigator>
       </swiper-item>
     </block>
   </swiper>
